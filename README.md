@@ -19,7 +19,7 @@ node-debugger@1.10.1
 todo-show@1.11.0
 ```
 
-### Get my packages list
+### Get my packages
 
 ```
 apm list --installed --bare > packages.list
