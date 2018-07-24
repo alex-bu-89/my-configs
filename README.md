@@ -1,5 +1,3 @@
-# Atom packages list
-
 ## Get my packages
 
 ```
@@ -11,6 +9,8 @@ apm list --installed --bare > packages.list
 ```
 apm install --packages-file packages.list
 ```
+
+## Atom packages list
 
 ```
 atom-beautify@0.32.5
