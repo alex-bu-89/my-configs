@@ -12,11 +12,8 @@ go-plus@5.8.3
 hyperclick@0.1.5
 intentions@1.1.5
 js-hyperclick@1.13.0
-line-count@0.5.0
 linter@2.2.0
 linter-eslint@8.4.1
 linter-golinter@1.2.2
 linter-ui-default@1.7.1
-split-diff@1.5.2
 teletype@0.13.3
-todo-show@2.3.0
