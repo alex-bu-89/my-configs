@@ -23,8 +23,6 @@ Install
 brew install fish
 ```
 
-Configuration
-
 Save config.fish to that path
 ```bash
 ~/.config/fish/config.fish
