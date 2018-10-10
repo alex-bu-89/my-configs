@@ -55,7 +55,7 @@ end
 
 ### Atom
 
-Get my packages
+Get installed packages
 
 ```bash
 apm list --installed --bare > packages.list
@@ -67,7 +67,7 @@ Install packages
 apm install --packages-file packages.list
 ```
 
-Atom packages list
+My atom packages list
 
 ```bash
 atom-beautify@0.32.5
