@@ -1,11 +1,20 @@
-## Fish shell
+# Personal configs
 
-### Config path
+1. [Fish shell](#Fish-shell)
+1. [Atom](#Atom)
+
+### Fish shell
+
+Installation
+```
+brew install fish
+```
+
+Config.fish
 ```
 ~/.config/fish/config.fish
 ```
 
-### config.fish
 ```bash
 # Nice light cyan color instead of dark blue
 set -gx LSCOLORS gxfxcxdxbxegedabagacad
@@ -30,21 +39,21 @@ function delmerged --description 'Delete all local branches that is already merg
 end
 ```
 
-## Atom
+### Atom
 
-### Get my packages
+#### Get my packages
 
 ```
 apm list --installed --bare > packages.list
 ```
 
-### Install packages
+#### Install packages
 
 ```
 apm install --packages-file packages.list
 ```
 
-### Atom packages list
+#### Atom packages list
 
 ```
 atom-beautify@0.32.5
