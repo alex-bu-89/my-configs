@@ -6,6 +6,7 @@
 
 ### Brew
 
+Install
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
@@ -17,17 +18,19 @@ brew update
 
 ### Fish shell
 
-Installation
+Install
 ```bash
 brew install fish
 ```
 
 Configuration
 
+Save config.fish to that path
 ```bash
 ~/.config/fish/config.fish
 ```
 
+config.fish
 ```bash
 # Nice light cyan color instead of dark blue
 set -gx LSCOLORS gxfxcxdxbxegedabagacad
