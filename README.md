@@ -1,7 +1,7 @@
 # Personal configs
 
-1. [Fish shell](#Fish-shell)
 1. [Brew](#Brew)
+1. [Fish shell](#Fish-shell)
 1. [Atom](#Atom)
 
 ### Brew
