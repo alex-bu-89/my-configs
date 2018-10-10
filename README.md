@@ -3,15 +3,27 @@
 1. [Fish shell](#Fish-shell)
 1. [Atom](#Atom)
 
+### Brew
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+or update if outdated
+```bash
+brew update
+```
+
 ### Fish shell
 
 Installation
-```
+```bash
 brew install fish
 ```
 
-Config.fish
-```
+Configuration
+
+```bash
 ~/.config/fish/config.fish
 ```
 
@@ -41,21 +53,21 @@ end
 
 ### Atom
 
-#### Get my packages
+Get my packages
 
-```
+```bash
 apm list --installed --bare > packages.list
 ```
 
-#### Install packages
+Install packages
 
-```
+```bash
 apm install --packages-file packages.list
 ```
 
-#### Atom packages list
+Atom packages list
 
-```
+```bash
 atom-beautify@0.32.5
 atom-ternjs@0.18.3
 atom-typescript@12.6.2
