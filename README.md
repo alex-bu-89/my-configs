@@ -1,6 +1,7 @@
 # Personal configs
 
 1. [Brew](#Brew)
+1. [iTerm2](#iTerm2)
 1. [Fish shell](#Fish-shell)
 1. [Atom](#Atom)
 
@@ -16,6 +17,20 @@ or update if outdated
 brew update
 ```
 
+### iTerm2
+[Install](https://www.iterm2.com/downloads.html)
+
+Font: 15px Roboto Mono Medium for Powerline
+```bash
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+```
 ### Fish shell
 
 Install
