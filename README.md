@@ -4,6 +4,8 @@
 1. [iTerm2](#iTerm2)
 1. [Fish shell](#Fish-shell)
 1. [Atom](#Atom)
+1. [VS Code](#VS-code)
+1. [NVM with fish shell](#NVM-with-fish-shell)
 
 ### Brew
 
@@ -108,6 +110,9 @@ split-diff@1.5.2
 teletype@0.13.3
 todo-show@2.3.0
 ```
+
+### VS Code
+
 
 ### NVM with fish shell
 https://medium.com/@joshuacrass/nvm-on-mac-for-fish-users-e00af124c540
