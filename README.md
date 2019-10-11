@@ -36,27 +36,26 @@ rm -rf fonts
 
 ## Fish shell
 
-#### Install
+Install
 ```bash
 brew install fish
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 ```
 
-#### Install Fisher
-
+Install Fisher
 Fisher is a plugin manager for Fish Shell.
 
 ```bash
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 ```
 
-#### Save config.fish to that path
+Save config.fish to that path
 ```bash
 ~/.config/fish/config.fish
 ```
 
-#### config.fish
+config.fish
 ```bash
 # Nice light cyan color instead of dark blue
 set -gx LSCOLORS gxfxcxdxbxegedabagacad
