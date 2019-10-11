@@ -61,6 +61,9 @@ fisher add oh-my-fish/
 # https://github.com/jhawthorn/fzy
 brew install fzy
 fisher add gyakovlev/fish-fzy
+
+brew install grc
+fisher add oh-my-fish/plugin-grc
 ```
 
 Save config.fish to that path
