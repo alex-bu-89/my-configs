@@ -141,8 +141,10 @@ todo-show@2.3.0
 
 Color Theme
 
-- vscode-theme-onedark
+```
+vscode-theme-onedark
 https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
+```
 
 ## NVM with fish shell
 https://medium.com/@joshuacrass/nvm-on-mac-for-fish-users-e00af124c540
