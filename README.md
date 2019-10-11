@@ -50,6 +50,19 @@ Fisher is a plugin manager for Fish Shell.
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 ```
 
+Install Themes and Plugins
+```bash
+fisher add igalic/anicode
+fisher add edc/bass
+
+fisher add oh-my-fish/
+
+# fzy is a fast, simple fuzzy text selector for the terminal with an advanced scoring algorithm.
+# https://github.com/jhawthorn/fzy
+brew install fzy
+fisher add gyakovlev/fish-fzy
+```
+
 Save config.fish to that path
 ```bash
 ~/.config/fish/config.fish
