@@ -7,7 +7,7 @@
 1. [VS Code](#VS-code)
 1. [NVM with fish shell](#NVM-with-fish-shell)
 
-### Brew
+## Brew
 
 Install
 ```bash
@@ -19,7 +19,7 @@ or update if outdated
 brew update
 ```
 
-### iTerm2
+## iTerm2
 [Install](https://www.iterm2.com/downloads.html)
 
 Font: 15px Roboto Mono Medium for Powerline
@@ -33,7 +33,8 @@ cd fonts
 cd ..
 rm -rf fonts
 ```
-### Fish shell
+
+## Fish shell
 
 Install
 ```bash
@@ -70,7 +71,7 @@ function delmerged --description 'Delete all local branches that is already merg
 end
 ```
 
-### Atom
+## Atom
 
 Get installed packages
 
@@ -111,12 +112,12 @@ teletype@0.13.3
 todo-show@2.3.0
 ```
 
-### VS Code
+## VS Code
 
 Color Theme
 
 - vscode-theme-onedark
 https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
 
-### NVM with fish shell
+## NVM with fish shell
 https://medium.com/@joshuacrass/nvm-on-mac-for-fish-users-e00af124c540
