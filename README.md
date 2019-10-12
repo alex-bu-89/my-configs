@@ -112,12 +112,18 @@ function delmerged --description 'Delete all local branches that is already merg
   command git remote prune origin
 end
 
+# NVM config
 function nvm
    bass source (brew --prefix nvm)/nvm.sh --no-use ';' nvm $argv
 end
 
 set -x NVM_DIR ~/.nvm
 nvm use default --silent
+
+# Remove time stamp on the right side
+function fish_right_prompt
+  #intentionally left blank
+end
 ```
 
 ## Atom
