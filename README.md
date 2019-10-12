@@ -66,6 +66,27 @@ brew install grc
 fisher add oh-my-fish/plugin-grc
 ```
 
+NVM on mac for fish users
+```
+brew upgrade
+brew install nvm
+
+mkdir ~/.nvm
+
+# install bass if not installed
+git clone https://github.com/edc/bass.git
+cd bass
+make install
+
+# add to fish config
+function nvm
+   bass source (brew --prefix nvm)/nvm.sh --no-use ';' nvm $argv
+end
+
+set -x NVM_DIR ~/.nvm
+nvm use default --silent
+```
+
 Save config.fish to that path
 ```bash
 ~/.config/fish/config.fish
