@@ -87,12 +87,10 @@ set -x NVM_DIR ~/.nvm
 nvm use default --silent
 ```
 
-Save config.fish to
+Save [config.fish](./fish/config.fish) under the following path
 ```bash
 ~/.config/fish/config.fish
 ```
-
-[config.fish](./fish/config.fish)
 
 ## Atom
 
