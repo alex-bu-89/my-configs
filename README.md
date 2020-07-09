@@ -36,26 +36,27 @@ rm -rf fonts
 
 ## Fish shell
 
-Install
+**Install**
+
 ```bash
 brew install fish
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 ```
 
-Install Fisher
+**Install Fisher**
+
 Fisher is a plugin manager for Fish Shell.
 
 ```bash
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 ```
 
-Install Themes and Plugins
+**Install Plugins**
+
 ```bash
 fisher add igalic/anicode
 fisher add edc/bass
-
-fisher add oh-my-fish/
 
 # fzy is a fast, simple fuzzy text selector for the terminal with an advanced scoring algorithm.
 # https://github.com/jhawthorn/fzy
@@ -66,7 +67,22 @@ brew install grc
 fisher add oh-my-fish/plugin-grc
 ```
 
-NVM on mac for fish users
+**Install Theme**
+
+```bash
+// install theme manager
+fisher add oh-my-fish/
+// or
+curl -L https://get.oh-my.fish | fish
+
+// install theme
+omf install bobthefish
+
+// use theme
+omf theme bobthefish
+```
+
+**NVM on mac for fish users**
 ```
 brew upgrade
 brew install nvm
