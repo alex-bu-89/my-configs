@@ -106,7 +106,7 @@ nvm use 12
 nvm alias default 12
 ```
 
-Save [config.fish](./fish/config.fish) under the following path
+**Save [config.fish](./fish/config.fish) under the following path**
 ```bash
 ~/.config/fish/config.fish
 ```
