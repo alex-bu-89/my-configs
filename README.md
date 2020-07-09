@@ -84,7 +84,10 @@ function nvm
 end
 
 set -x NVM_DIR ~/.nvm
-nvm use default --silent
+
+nvm install 12
+nvm use 12
+nvm alias default 12
 ```
 
 Save [config.fish](./fish/config.fish) under the following path
