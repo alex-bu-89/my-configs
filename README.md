@@ -38,7 +38,7 @@ rm -rf fonts
 ```shell
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
 cd schemes
-// import Floraverse.itermcolors
+// Use Solarized Dark OR import Floraverse.itermcolors
 ```
 
 ## Fish shell
