@@ -34,6 +34,13 @@ cd ..
 rm -rf fonts
 ```
 
+**Install color presets**
+```shell
+git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
+cd schemes
+// import Floraverse.itermcolors
+```
+
 ## Fish shell
 
 **Install**
@@ -72,14 +79,14 @@ fisher add oh-my-fish/plugin-grc
 ```bash
 // install theme manager
 fisher add oh-my-fish/
-// or
+// OR
 curl -L https://get.oh-my.fish | fish
 
 // install theme
-omf install bobthefish
+omf install agnoster
 
 // use theme
-omf theme bobthefish
+omf theme agnoster
 ```
 
 **NVM on mac for fish users**
