@@ -3,7 +3,7 @@
 1. [Brew](#Brew)
 1. [iTerm2](#iTerm2)
 1. [Fish shell](#Fish-shell)
-1. [Atom](#Atom)
+1. [NVM](#nvm)
 1. [VS Code](#VS-code)
 1. [NVM with fish shell](#NVM-with-fish-shell)
 
@@ -89,7 +89,12 @@ omf install agnoster
 omf theme agnoster
 ```
 
-**NVM on mac for fish users**
+**Save [config.fish](./fish/config.fish) under the following path**
+```bash
+~/.config/fish/config.fish
+```
+
+## NVM
 ```
 brew upgrade
 brew install nvm
@@ -113,10 +118,8 @@ nvm use 12
 nvm alias default 12
 ```
 
-**Save [config.fish](./fish/config.fish) under the following path**
-```bash
-~/.config/fish/config.fish
-```
+### NVM with fish shell
+https://medium.com/@joshuacrass/nvm-on-mac-for-fish-users-e00af124c540
 
 ## VS Code
 
@@ -126,6 +129,3 @@ Color Theme
 vscode-theme-onedark
 https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
 ```
-
-## NVM with fish shell
-https://medium.com/@joshuacrass/nvm-on-mac-for-fish-users-e00af124c540
