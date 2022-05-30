@@ -78,10 +78,9 @@ fisher install oh-my-fish/plugin-grc
 
 **Install Theme**
 
+https://github.com/oh-my-fish/oh-my-fish
+
 ```bash
-// install theme manager
-fisher add oh-my-fish/
-// OR
 curl -L https://get.oh-my.fish | fish
 
 // install theme
