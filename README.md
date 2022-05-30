@@ -58,22 +58,22 @@ chsh -s /usr/local/bin/fish
 Fisher is a plugin manager for Fish Shell.
 
 ```bash
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 ```
 
 **Install Plugins**
 
 ```bash
-fisher add igalic/anicode
-fisher add edc/bass
+fisher install igalic/anicode
+fisher install edc/bass
 
 # fzy is a fast, simple fuzzy text selector for the terminal with an advanced scoring algorithm.
 # https://github.com/jhawthorn/fzy
 brew install fzy
-fisher add gyakovlev/fish-fzy
+fisher install gyakovlev/fish-fzy
 
 brew install grc
-fisher add oh-my-fish/plugin-grc
+fisher install oh-my-fish/plugin-grc
 ```
 
 **Install Theme**
