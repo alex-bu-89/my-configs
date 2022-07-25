@@ -40,7 +40,7 @@ rm -rf fonts
 ```shell
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
 cd schemes
-// Use Solarized Dark OR import Floraverse.itermcolors
+// Use Solarized Dark OR import Dracula+ || Floraverse.itermcolors
 ```
 
 ## Fish shell
