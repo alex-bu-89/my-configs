@@ -67,6 +67,9 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
 **Install Plugins**
 
+[igalic/anicode](https://github.com/igalic/anicode)
+[edc/bass](https://github.com/edc/bass)
+
 ```bash
 fisher install igalic/anicode
 fisher install edc/bass
