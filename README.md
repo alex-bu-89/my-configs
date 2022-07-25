@@ -57,6 +57,8 @@ chsh -s /usr/local/bin/fish
 
 **Install Fisher**
 
+(fisher)[https://github.com/jorgebucaran/fisher]
+
 Fisher is a plugin manager for Fish Shell.
 
 ```bash
