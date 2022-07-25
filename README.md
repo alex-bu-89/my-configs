@@ -45,6 +45,8 @@ cd schemes
 
 ## Fish shell
 
+[fishshell.com](https://fishshell.com/)
+
 **Install**
 
 ```bash
