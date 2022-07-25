@@ -62,7 +62,7 @@ chsh -s /usr/local/bin/fish
 Fisher is a plugin manager for Fish Shell.
 
 ```bash
-curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 ```
 
 **Install Plugins**
